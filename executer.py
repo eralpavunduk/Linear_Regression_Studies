@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 #Linar Regression için gereken modül LinearRegression
 
-dataset = pd.read_csv('Salary_Data.csv')
+dataset = pd.read_csv('your data')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:,-1].values
 
